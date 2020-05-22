@@ -8,9 +8,111 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #333;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+	margin: auto;
+	width: 100%;
+}
+/*  */
+
+.header {
+	background-color: blueviolet;
+	padding-bottom: 15px;
+	color: lightgray;
+	width: 100%;
+}
+
+.header h1 {
+	text-align: center;
+	margin: 0;
+}
+
+.navBar ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+}
+
+.navBar a {
+	color: lightgray;
+	font-weight: 700;
+	margin: 5px 15px;
+	text-decoration: none;
+	font-size: 1.2em;
+	opacity: 0.7;
+	padding: 5px;
+	border: 1px solid transparent;
+}
+
+.navBar a:hover {
+	opacity: 1;
+	padding: 5px;
+	border: 1px solid lightgray;
+}
+
+/* Create Post Form */
+
+.createPostForm {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin: 10px auto;
+}
+
+.createPostForm label {
+	color: lightgray;
+	font-size: 1.2em;
+	margin-left: 5px;
+	font-weight: 700;
+}
+
+.createPostTitle {
+	width: 385px;
+	margin: 5px auto;
+	border-radius: 5px;
+	max-width: 50ch;
+}
+
+.createPostTextArea {
+	resize: none;
+	line-height: 1.2em;
+	width: 385px;
+	border-radius: 5px;
+	margin: 5px auto;
+}
+
+.bigFont {
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.smallFont {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.pub-btn {
+	background-color: blueviolet;
+	color: lightgray;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	width: 385px;
+	margin: 2px auto;
+	cursor: pointer;
+}
+
+/* alt classes */
+
+.enhance {
+	font-weight: 500;
+	color: blueviolet;
 }
