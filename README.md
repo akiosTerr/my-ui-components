@@ -1,5 +1,10 @@
 # My React Components Library
 
+## reactive form
+
+![gif](https://i.gyazo.com/2d039c00f6d56bf8a26600905ca8af1b.gif)
+
+
 ## basic button:
 
 ```javascript
